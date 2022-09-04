@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.hero-img{
+    width: 400px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.desktop-back{
+    width: 100vw;
+    display: none;
+}
+
+.mobile-back{
+    width: 100vw;
+}
+
+.container{
+    width: 400px;
+    margin: 20px auto;
+    background-color: hsl(225, 100%, 98%);
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+
+.about-title{
+    padding: 25px;
+    font-size: 32px;
+}
+
+.about-description{
+    padding:0 60px  ;
+    color: hsl(224, 23%, 55%);
+}
+
+.price{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+    background-color:hsl(225, 43%, 95%);
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    border-radius:10px;
+    margin-top: 30px;
+}
+
+.price-title{
+    font-weight: 900;
+}
+
+.price-number{
+    color:hsl(224, 23%, 55%) ;
+}
+
+.price-link{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+}
+
+.price-link:hover{
+    text-decoration: none;
+    color:hsl(245, 75%, 70%) ;
+}
+
+.button-cancel{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 16px;
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 1px 10px 15px hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:hsl(245, 75%, 70%) ;
+}
+
+.cancel-link{
+    margin-bottom: 40px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    text-decoration: none   ;
+}
+
+.cancel-link:hover{
+    color: hsl(225, 29%, 47%);
+}
+
+@media screen and (min-width: 1024px) {
+    .desktop-back{
+        display: block;
+    }
+    .mobile-back{
+        display: none;
+    }
+    }
+
+
+
